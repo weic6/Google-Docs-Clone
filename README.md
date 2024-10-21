@@ -13,6 +13,8 @@ and/or copy migration would be useful to minimize application response time. [as
 
 ## start the app
 
+create a `.env` file in parent folder, and add `MONGODB_URI=xxx`, which can be configured using [MongoDB Atlas](https://cloud.mongodb.com/v2#/org/6715ca4ab96d2b062465b35b/projects).
+
 start the client: `npm start`
 
 start the server: `cd server` and `npm run devStart`
